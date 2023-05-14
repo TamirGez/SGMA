@@ -1,0 +1,38 @@
+{
+  "data_path": false,
+  "data_ratio": 0.85,
+  "data_mode": 0,
+  "history_window_size": 20,
+  "learning_rate": 0.01,
+  "elastic_lasso": 1,
+  "elastic_bright": 0.1,
+  "huber_mu": 1e-24,
+  "problem_type": "strongly_convex",
+  "learning_rate_update_mode": 0,
+  "eps": 1e-24,
+  "theta_start_amplitude": 1,
+  "max_epochs": 1,
+  "start_skip": 0,
+  "save_results": true,
+  "save_theta_history": true,
+  "save_dir": false,
+  "worker_number": 10,
+  "server_loop": 150,
+  "sigma_h": 10,
+  "sigma_w": 10,
+  "E_N": 1,
+  "ECESA_P": 0.95,
+  "full_simulation_output_directory": "elastic10",
+  "figure_resolution": [
+    13,
+    11
+  ],
+  "models_to_run": [
+    "FDM_GD",
+    "ECESA_GD",
+    "FDM_SGD",
+    "ECESA_SGD",
+    "GBMA",
+    "SGMA"
+  ]
+}
